@@ -117,7 +117,11 @@ const Calendar = () => {
             <Modal
               modalTitle={
                 <>
-                  <span className="text-base">Ajouter un événement pour :</span>
+                  <span className="text-base">
+                    {currentEventDetails.id
+                      ? "Modifier l'événement pour : "
+                      : 'Ajouter un événement pour :'}
+                  </span>
                   <span className="text-lg font-bold">
                     {' '}
                     {formatDate(currentEventDetails?.day ?? '')}

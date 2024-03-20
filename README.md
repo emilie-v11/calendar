@@ -4,6 +4,9 @@
 
 Schedule is a small and simple project developed using React, TypeScript, and Tailwind CSS. It's designed to offer a straightforward way for users to manage their events with ease. This project leverages the powerful combination of these technologies to create an intuitive and user-friendly interface for creating, editing, and deleting events for half-day periods.
 
+<kbd>![Schedule](./schedule.png)</kbd>
+<kbd>![Schedule edit/delete](./schedule3.png)</kbd>
+
 ## Features
 
 - **Current Week Display**: View the current week at a glance with easy navigation to view past and future weeks.

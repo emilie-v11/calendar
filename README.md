@@ -1,46 +1,70 @@
-# Getting Started with Create React App
+# Schedule
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+Schedule is a small and simple project developed using React, TypeScript, and Tailwind CSS. It's designed to offer a straightforward way for users to manage their events with ease. This project leverages the powerful combination of these technologies to create an intuitive and user-friendly interface for creating, editing, and deleting events for half-day periods.
 
-In the project directory, you can run:
+## Features
 
-### `yarn start`
+- **Current Week Display**: View the current week at a glance with easy navigation to view past and future weeks.
+- **Event Addition**: Easily add events for the morning or afternoon on any day of the week.
+- **Event Editing and Deletion**: Intuitive options for modifying or deleting events directly from your calendar.
+- **Responsive Design**: Designed to adapt to all screen types for use on various devices.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Upcoming Features
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+This app was made in a few hours and does not yet have the basics of mobile version, accessibility, and full responsiveness.
 
-### `yarn test`
+- **Mobile Version**: A dedicated mobile app for iOS and Android, offering an even smoother and more convenient user experience for managing your events from anywhere.
+- **Accessibility**: Significant accessibility improvements to ensure that Schedule is easily usable by all users, including those with specific needs.
+- **Improved Responsiveness**: Additional optimizations of the responsive design for an enhanced user experience across a wider range of devices and screen sizes.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technologies Used
 
-### `yarn build`
+- [Create React App (CRA)](https://create-react-app.dev/)
+- [React](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Prerequisites
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Before getting started, make sure you have installed on your machine:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Node.js (Version 12.x or higher recommended)
+- npm (included with Node.js) or Yarn
 
-### `yarn eject`
+## Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Follow these steps to install and run the project locally:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Clone the repository:
+    ```sh
+    git clone https://your_repo/schedule.git
+    cd schedule
+    ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+2. Install the dependencies:
+    ```sh
+    npm install
+    ```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+    or if you are using Yarn:
+    ```sh
+    yarn
+    ```
 
-## Learn More
+3. Start the application:
+    ```sh
+    npm start
+    ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    or with Yarn:
+    ```sh
+    yarn start
+    ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Your application is now accessible at [http://localhost:3000](http://localhost:3000).
+
+## License
+
+This project is licensed under the MIT License

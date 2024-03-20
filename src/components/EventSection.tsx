@@ -22,7 +22,7 @@ const EventSection: React.FC<EventSectionProps> = ({
   );
 
   return (
-    <div className="w-full h-1/2 flex justify-center items-center p-2 border-b border-light-grey">
+    <div className="w-full h-1/2 flex justify-center items-center p-2 border-b border-lightGrey">
       {sectionEvents.length > 0 ? (
         sectionEvents.map((event, index) => (
           <EventItem

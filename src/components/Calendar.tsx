@@ -74,14 +74,14 @@ const Calendar = () => {
   return (
     <>
       <div className="flex flex-nowrap w-full max-w-screen-2xl mx-auto max-h-[90vh] min-h-[850px] overflow-y-scroll rounded-lg">
-        <div className="flex flex-col flex-[0_0_auto] text-center border-r border-b border-light-grey">
-          <div className="sticky top-0 z-10 bg-peach-puff border-b-2 border-light-grey h-auto p-4 h-16">
+        <div className="flex flex-col flex-[0_0_auto] text-center border-r border-b border-lightGrey">
+          <div className="sticky top-0 z-10 bg-peachPuff border-b-2 border-lightGrey h-auto p-4 h-16">
             <h2 className="text-center text-transparent text-lg">time</h2>
           </div>
-          <div className="flex-1 flex items-center justify-center bg-neutral-100 border-b border-light-grey px-1">
+          <div className="flex-1 flex items-center justify-center bg-neutral-100 border-b border-lightGrey px-1">
             <span>Matin</span>
           </div>
-          <div className="flex-1 flex items-center justify-center bg-neutral-100 border-b border-light-grey px-1">
+          <div className="flex-1 flex items-center justify-center bg-neutral-100 border-b border-lightGrey px-1">
             <span>Après-midi</span>
           </div>
         </div>
@@ -89,14 +89,14 @@ const Calendar = () => {
           {days.map(day => (
             <section
               key={day.name}
-              className="flex-1 flex flex-col bg-white border-r border-b border-light-grey overflow-y-scroll w-full min-w-[200px] max-w-[300px] min-h-auto"
+              className="flex-1 flex flex-col bg-white border-r border-b border-lightGrey overflow-y-scroll w-full min-w-[200px] max-w-[300px] min-h-auto"
             >
-              <div className="sticky top-0 z-10 bg-peach-puff border-b-2 border-light-grey h-auto p-4">
+              <div className="sticky top-0 z-10 bg-peachPuff border-b-2 border-lightGrey h-auto p-4">
                 <h2 className="text-lg text-center">
                   {day.name} {day.date} {day.month}
                 </h2>
               </div>
-              <div className="h-full text-center flex flex-col justify-center items-center border-light-grey">
+              <div className="h-full text-center flex flex-col justify-center items-center border-lightGrey">
                 <EventSection
                   events={events}
                   dayFullDate={day.fullDate}

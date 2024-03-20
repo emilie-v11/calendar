@@ -19,7 +19,7 @@ const Form: React.FC<FormProps> = ({
   return (
     <form onSubmit={handleSubmit}>
       <input
-        className="w-full p-2 rounded-md border border-light-grey mb-5"
+        className="w-full p-2 rounded-md border border-lightGrey mb-5"
         name="eventContent"
         placeholder="Contenu de l'événement"
         value={currentEventDetails.content}
@@ -35,14 +35,14 @@ const Form: React.FC<FormProps> = ({
         <Button
           text="Supprimer"
           type="button"
-          addClassName="rounded-md bg-light-grey text-black p-2.5"
+          addClassName="rounded-md bg-lightGrey text-black p-2.5"
           onClick={() => removeEvent(currentEventDetails.id ?? '')}
           disabled={!currentEventDetails.id}
         />
         <Button
           text="Valider"
           type="submit"
-          addClassName="rounded-md bg-powder-blue text-black p-2.5"
+          addClassName="rounded-md bg-powderBlue text-black p-2.5"
         />
       </div>
     </form>

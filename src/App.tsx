@@ -5,7 +5,7 @@ import Calendar from './components/Calendar';
 function App() {
   return (
     <div className="App">
-      <div className="w-full max-w-full min-h-screen bg-powder-blue px-12">
+      <div className="w-full max-w-full min-h-screen bg-powderBlue px-12">
         <Header title="Calendrier" />
         <main>
           <Calendar />

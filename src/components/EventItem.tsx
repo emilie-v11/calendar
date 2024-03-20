@@ -15,7 +15,7 @@ const EventItem: React.FC<EventItemProps> = ({
   return (
     // <>
     <div
-      className="flex w-full h-full bg-powder-blue p-2.5 rounded-md cursor-pointer"
+      className="flex w-full h-full bg-powderBlue p-2.5 rounded-md cursor-pointer"
       onClick={() => handleEditEvent(event)}
     >
       <p className="m-auto">{event?.content}</p>

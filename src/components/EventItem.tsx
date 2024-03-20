@@ -1,15 +1,12 @@
-// import ActionButton from './ActionButton';
 import { Event } from '../utilities/interfaces';
 
 interface EventItemProps {
   event: Event;
-  // removeEvent: (id: string) => void;
   handleEditEvent: (event: Event) => void;
 }
 
 const EventItem: React.FC<EventItemProps> = ({
   event,
-  // removeEvent,
   handleEditEvent,
 }) => {
   return (
@@ -20,12 +17,6 @@ const EventItem: React.FC<EventItemProps> = ({
     >
       <p className="m-auto">{event?.content}</p>
     </div>
-    // {/* <ActionButton
-    //   event={Event}
-    //   removeEvent={removeEvent}
-    //   handleEditEvent={handleEditEvent}
-    // /> */}
-    // </>
   );
 };
 

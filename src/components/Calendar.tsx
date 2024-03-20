@@ -36,7 +36,6 @@ const Calendar = () => {
       id: generateUniqueId(),
     };
     setEvents([...events, newEvent]);
-    // setIsModalOpen(false);
   };
 
   const removeEvent = (id: string) => {
